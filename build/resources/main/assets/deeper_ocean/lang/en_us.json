@@ -1,0 +1,7 @@
+{
+  "death.attack.imploded": "%1$s imploded",
+  "item.deeper_ocean.sharktooth": "Sharktooth",
+  "death.attack.imploded.player": "%1$s died whilst trying to escape %2$s",
+  "death.attack.imploded.item": "%1$s was killed by %2$s using %3$s",
+  "item_group.deeper_ocean.deeper_ocean": "Deeper Ocean"
+}

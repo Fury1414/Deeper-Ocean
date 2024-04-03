@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Deeper Ocean",
+    "icon": {
+      "value": "Items.HEART_OF_THE_SEA"
+    },
+    "showSearch": false
+  }
+}

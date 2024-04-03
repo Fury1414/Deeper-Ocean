@@ -1,9 +1,54 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Imploded",
+      "type": "damagetype",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imploded",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/deeper_ocean/damage_type/imploded.json"
+        ]
+      }
+    },
+    {
+      "name": "DeeperOcean",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deeper_ocean",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Sharktooth",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharktooth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deeperocean/item/SharktoothItem.java",
+          "src/main/resources/assets/deeper_ocean/models/item/sharktooth.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "death.attack.imploded": "%1$s imploded",
+      "item.deeper_ocean.sharktooth": "Sharktooth",
+      "death.attack.imploded.player": "%1$s died whilst trying to escape %2$s",
+      "death.attack.imploded.item": "%1$s was killed by %2$s using %3$s",
+      "item_group.deeper_ocean.deeper_ocean": "Deeper Ocean"
+    }
   },
   "foldersRoot": {
     "name": "~",

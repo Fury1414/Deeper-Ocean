@@ -29,6 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.deeperocean.init.DeeperOceanModTabs;
+import net.mcreator.deeperocean.init.DeeperOceanModItems;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +49,10 @@ public class DeeperOceanMod {
 	public DeeperOceanMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		DeeperOceanModItems.REGISTRY.register(bus);
+
+		DeeperOceanModTabs.REGISTRY.register(bus);
 
 	}
 
