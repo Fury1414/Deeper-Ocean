@@ -1,0 +1,121 @@
+{
+  "mod_elements": [
+    {
+      "name": "Imploded",
+      "type": "damagetype",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imploded",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/deeper_ocean/damage_type/imploded.json"
+        ]
+      }
+    },
+    {
+      "name": "DeeperOcean",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deeper_ocean",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Sharktooth",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharktooth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deeperocean/item/SharktoothItem.java",
+          "src/main/resources/assets/deeper_ocean/models/item/sharktooth.json"
+        ]
+      }
+    },
+    {
+      "name": "Sharkleather",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharkleather",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/deeper_ocean/models/item/sharkleather.json",
+          "src/main/java/net/mcreator/deeperocean/item/SharkleatherItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tier1sharkloot",
+      "type": "loottable",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_1sharkloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/deeper_ocean/loot_tables/entities/tier_1sharkloot.json"
+        ]
+      }
+    },
+    {
+      "name": "Shark",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shark",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deeperocean/client/renderer/SharkRenderer.java",
+          "src/main/resources/assets/deeper_ocean/models/item/shark_spawn_egg.json",
+          "src/main/java/net/mcreator/deeperocean/entity/SharkEntity.java",
+          "src/main/resources/data/deeper_ocean/forge/biome_modifier/shark_biome_modifier.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.deeper_ocean.shark_spawn_egg": "Shark Spawn Egg",
+      "death.attack.imploded": "%1$s imploded",
+      "item.deeper_ocean.sharktooth": "Sharktooth",
+      "entity.deeper_ocean.shark": "Shark",
+      "death.attack.imploded.player": "%1$s died whilst trying to escape %2$s",
+      "death.attack.imploded.item": "%1$s was killed by %2$s using %3$s",
+      "item_group.deeper_ocean.deeper_ocean": "Deeper Ocean",
+      "item.deeper_ocean.sharkleather": "Sharkleather"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "deeper_ocean",
+    "modName": "deeper ocean",
+    "version": "1.0.0",
+    "author": "ADMIN, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.deeperocean",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
